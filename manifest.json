@@ -1,0 +1,26 @@
+{
+  "name": "Evernote Panel",
+  "description": "Evernote Web wrapped in a panel",
+  "author": "Xin Nie",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "webview",
+    "browser",
+    "notifications"
+  ],
+  "app": {
+    "background": {
+      "scripts": [
+        "common.js"
+      ]
+    }
+  },
+  "icons": {
+    "16": "data/icons/16x16.png",
+    "48": "data/icons/64x64.png",
+    "120": "data/icons/128x128.png",
+    "128": "data/icons/128x128.png"
+  }
+}
